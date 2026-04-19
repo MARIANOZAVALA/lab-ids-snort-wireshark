@@ -37,8 +37,10 @@ Desarrollar un entorno controlado para el monitoreo, detección y mitigación de
 - **Arquitectura de Red:** Segmentación y visibilidad en interfaces de bucle (*loopback*) vs. interfaces físicas.
 
 ## 📸 Evidencia Técnica
-![Alerta Snort](screenshots/snort-alerta.png)
+![Alerta Snort](screenshots/Snort_Alert.png) 
 *Captura de pantalla: Snort detectando ráfaga de ataques hping3 en tiempo real.*
+![Ataque Snort](screenshots/hping3.png) 
+*Captura de pantalla: Ataque hping3 en tiempo real.*
 
-![Wireshark](screenshots/wireshark.png)
+![Wireshark](screenshots/Wireshark_FPU.png)
 *Análisis en Wireshark: Inspección de banderas FPU en un paquete Xmas Scan.*
