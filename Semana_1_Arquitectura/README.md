@@ -13,6 +13,13 @@ Desplegar un entorno de laboratorio seguro y realista para la simulación de cib
 2.  **Aislamiento de Red:** Configuración de un switch virtual (`vboxnet0`) con servidor DHCP habilitado para asegurar que la máquina vulnerable no tenga salida a internet (Air-Gapped Environment).
 3.  **Validación de Telemetría:** Verificación de conectividad (ICMP Ping) desde Kali Linux hacia la IP de la víctima (`192.168.56.101`).
 4.  **Captura de Tráfico:** Monitoreo exitoso de la interfaz virtual `vboxnet0` utilizando **Wireshark** para confirmar la visibilidad de los paquetes en la red interna.
-
 ## 📸 Evidencia
-*(Capturas de conectividad ICMP, IP de la víctima y tráfico capturado en Wireshark)*
+
+**1. Dirección IP de la víctima (Metasploitable)**
+![IP Metasploitable](metasploit.png)
+
+**2. Prueba de conectividad aislada (Ping desde Kali)**
+![Ping a Víctima](Ping_a_MetaSploit.png)
+
+**3. Validación de telemetría en switch virtual (vboxnet0)**
+![Tráfico en Wireshark](Wireshark_Reply.png)
